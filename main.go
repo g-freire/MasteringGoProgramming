@@ -1,9 +1,11 @@
 package main
 
 import (
-	master_topics "./master_topics"
+	mt "./master_topics"
 )
 
 func main() {
-	master_topics.Start()
+	mt.StartTimersTickers()
+	//mt.StartChannelGenerator()
+
 }
