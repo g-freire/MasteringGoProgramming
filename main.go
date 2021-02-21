@@ -1,7 +1,9 @@
 package main
 
-import "log"
+import (
+	master_topics "./master_topics"
+)
 
 func main() {
-	log.Printf("TESTE")
+	master_topics.Start()
 }
