@@ -1,7 +1,11 @@
 package main
 
-import "log"
+import (
+	mt "./master_topics"
+)
 
 func main() {
-	log.Printf("TESTE")
+	mt.StartTimersTickers()
+	//mt.StartChannelGenerator()
+
 }
